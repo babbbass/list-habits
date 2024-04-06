@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.completed {
+  color: grey;
+  font-weight: 600;
+}
+
+.cardHabits {
+  padding: 2em;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+form {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
